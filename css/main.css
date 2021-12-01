@@ -1,0 +1,437 @@
+@font-face { 
+	font-family: "cirruscumulus";
+	src: url(../fonts/cirruscumulus);
+}
+
+@font-face {
+	font-family: "basteleur"; 
+	src: url(../fonts/basteleur); 
+}
+
+@font-face {
+	font-family: "harmond";
+	src: url(../fonts/harmond);
+}
+
+
+body {
+/*border: 30px solid #ADEAFD;*/
+font-family: "cirruscumulus";
+/*background-image: url(../images/background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;*/
+background-color: lightsteelblue;
+height: 100vh;
+}
+
+
+h1{
+	text-align: left;
+	font-family: "basteleur";
+	font-size: 6em;
+	width: 80%;
+	position: absolute;
+	/*background-image: url(../images/textback.png);*/
+}
+
+h2{
+	text-align: left;
+	font-family: "basteleur";
+	font-size: 4em;
+	width: 80%;
+}
+
+p{
+	font-size: 3.25em;
+}
+
+/*----------:? page------------------*/
+.column-l{
+
+}
+
+.paragraph{
+	position: fixed;
+	top: 6%;
+	left: 2%;
+	width: 55vw;
+}
+
+.paragraph p{
+	color: #ee3b23;
+}
+
+/*-------------within columns-----------------*/
+
+
+
+.paragraphw{ 
+	background-image: 
+	background-size: 
+	background-repeat: 
+	background-color:;
+	overflow: ;
+	position: ;
+	width: ; 
+	height:;
+	line-height: ;
+	padding: ;
+	bottom: ;
+	right: ; 
+	/*can also put under .paragraph p for now and they make it look different*/
+
+}
+.paragraphw p{
+	/*line-height: 20px;
+	padding: 7%;
+	bottom: 14%;
+	right: .2%;*/
+	overflow-wrap: ;
+}
+
+.paragraphw img{
+	max-width: ;
+}
+
+/*.paragraph::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.paragraph::-webkit-scrollbar:vertical {
+    width: 11px;
+
+}
+
+.paragraph::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: #A0A0A0;
+    } should match background, can't be transparent */
+
+/* This is another area where I'm having trouble. 
+I can't seem to get it to be where the typed header is.
+.header{
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+.header img{
+	width: 50%;
+}*/
+
+
+
+
+/*--------Kitch-----------------*/
+
+.kitchfloor{
+	/*background-image: url(../images/kitch/kitchfloor.png);
+	background-size: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	/*display: flex;*/
+		height: 150vh;
+}
+
+.kitchimg1 img{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	width: 15%;
+	z-index: 3;
+}
+
+.kitchimg2 img{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 15%;
+	z-index: 1;
+}
+
+.kitchimg3 img{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 40%;
+	z-index: 3;
+}
+
+.kitchimg4 img{
+	position: absolute;
+	top: 5%;
+	left: 40%;
+	width: 10%;
+	z-index: 3;
+}
+
+.kitchimg5 img{
+	position: absolute;
+	top: 90%;
+	left: 40%;
+	width: 30%;
+	z-index: 3;
+}
+
+.kitchimg6 img{
+	position: absolute;
+	top: 130%;
+	right: 10%;
+	width: 20%;
+	z-index: 3;
+}
+
+.kitchimg7 img{
+	position: absolute;
+	top: 60%;
+	left: 15%;
+	width: 30%;
+	z-index: 3;
+}
+
+.kitchimg8 img{
+	position: absolute;
+	top: 60%;
+	left: 80%;
+	height: 30%;
+	z-index: 3;
+}
+
+.kitchimg9 img{
+	position: fixed;
+	bottom: 5%;
+	height: 60vw;
+	z-index: 0;
+}
+
+	
+
+
+/*--------Liv-----------------*/
+
+.livfloor{
+	background-image: url(../images/liv/livfloor2.png);
+	background-size: 100vh;
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
+	/*display: flex;*/
+}
+
+.livimg1 img{
+	position: absolute;
+	top: 60%;
+	left: 70%;
+	width: 17%;
+	z-index: 3;
+}
+
+.livimg2 img{
+	position: absolute;
+	top: 7%;
+	left: 3%;
+	width: 30%;
+	z-index: 2;
+}
+
+.livimg3 img{
+	position: absolute;
+	top: 5%;
+	right: 15%;
+	height: 60%;
+	z-index: 2;
+
+}
+
+.livimg4 img{
+	position: absolute;
+	top: 15%;
+	left: 25%;
+	height: 50%;
+	z-index: 0;
+}
+
+/*--------------bed-----------------*/
+
+.bedfloor{
+	/*background-image: url(../images/bed/bedfloor.png);
+	background-size: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*display: flex;*/
+	height: 100vh;
+	width: 150vw;
+}
+
+.bedimg1 img{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+	width: 60vw;
+	z-index: 0;
+}
+
+.bedimg2 img{
+	position: absolute;
+	top: 15%;
+	left: 2%;
+	width: 40%;
+	z-index: 0;
+}
+
+.bedimg3 img{
+	position: absolute;
+	top: 5%;
+	left: 0%;
+	width: 60vw;
+	z-index: 0;
+}
+
+.bedimg4 img{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	width: 40%;
+	z-index: 0;
+}
+
+.bedimg5 img{
+	position: absolute;
+	top: 10%;
+	left: 70%;
+	width: 15%;
+	z-index: 0;
+}
+
+.bedimg6 img{
+	position: absolute;
+	top: 20%;
+	left: 105%;
+	width: 15%;
+	z-index: 0;
+}
+
+.bedimg7 img{
+	position: absolute;
+	bottom: 4%;
+	left: 100%;
+	width: 35%;
+	z-index: 0;
+}
+
+.bedimg8 img{
+	position: absolute;
+	top: 10%;
+	left: 130%;
+	width: 7%;
+	z-index: 0;
+}
+
+.bedimg9 img{
+	position: absolute;
+	top: 30%;
+	left: 91%;
+	width: 15%;
+	z-index: 0;
+}
+
+.bedimg10 img{
+	position: absolute;
+	top: 20%;
+	left: 135%;
+	width: 10%;
+	z-index: 0;
+}
+
+/*--------------bath-----------------*/
+
+.bathfloor{
+	/*background-image: url(../images/bed/bedfloor.png);
+	background-size: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	/*display: flex;*/
+	height: 150vh;
+	width: 10vw;
+}
+
+.bathimg1 img{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 60vw;
+	z-index: 0;
+}
+.bathimg2 img{
+	position: absolute;
+	top: 100%;
+	left: 13%;
+	width: 20%;
+	z-index: 2;
+}
+.bathimg3 img{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 10%;
+	z-index: 0;
+}
+.bathimg4 img{
+	position: absolute;
+	top: 17%;
+	left: 30%;
+	width: 25%;
+	z-index: 0;
+}
+.bathimg5 img{
+	position: absolute;
+	top: 40%;
+	left: 65%;
+	width: 25%;
+	z-index: 0;
+}
+
+/*----------------navbar--------------------*/
+
+nav {
+	text-align: left;
+	/*background-color: mediumsteelblue;*/
+	padding: 1%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	z-index: 10;
+
+}
+.navitems{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.navlink{
+	display: inline-block;
+	background-color: #ece03d;
+	padding: 10px 30px 10px 30px;
+	align-items: center;
+	border-radius: 50px 15px;
+	box-shadow: 5px 5px 5px #f06754;
+	font-family: "basteleur";
+	font-size: 1.5em;
+}
+
+.navlink a {
+	color: #ee3b23;
+	text-decoration: none;
+}
+
+.navlink a:hover{
+	color: #CEF487;
+}
+
+
+
+
