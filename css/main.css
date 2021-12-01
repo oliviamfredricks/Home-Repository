@@ -4,6 +4,11 @@
 }
 
 @font-face {
+	font-family: 'Yeseva One', cursive;
+	src: url(https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&family=UnifrakturMaguntia&family=Yeseva+One&display=swap)
+}	
+
+@font-face {
 	font-family: "basteleur"; 
 	src: url(../fonts/basteleur); 
 }
@@ -419,7 +424,7 @@ nav {
 	align-items: center;
 	border-radius: 50px 15px;
 	box-shadow: 5px 5px 5px #f06754;
-	font-family: "basteleur";
+	font-family: "Yeseva One";
 	font-size: 1.5em;
 }
 
