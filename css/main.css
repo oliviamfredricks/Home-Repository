@@ -8,6 +8,10 @@
 }	
 
 @font-face {
+	font-family: 'Nixie One', cursive;
+}
+
+@font-face {
 	font-family: "basteleur"; 
 	src: url(../fonts/basteleur); 
 }
@@ -32,7 +36,7 @@ height: 100vh;
 
 h1{
 	text-align: left;
-	font-family: "basteleur";
+	font-family: "Nixie One";
 	font-size: 6em;
 	width: 80%;
 	position: absolute;
@@ -41,7 +45,7 @@ h1{
 
 h2{
 	text-align: left;
-	font-family: "basteleur";
+	font-family: "Nixe One";
 	font-size: 4em;
 	width: 80%;
 }
